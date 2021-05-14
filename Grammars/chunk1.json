@@ -1,0 +1,28 @@
+# what a day looks like in Carleton
+# Sue
+{
+  'origin':['#[#setRoutine#]content#'],
+  'setRoutine': ['[day: weekday][awakeTime: 7, 8, 9][afterAwake: go to #affair# after having #meal# for breakfast, go to #affair#][lunch: I have lunch in #cafeteria# and then #afternoon#]', '[day: weekend][awakeTime: 10, 11, 12][afterAwake: have some #drinks#][lunch: I have #meal# for brunch and then go to #activity#]'],
+  'content': '#introduction# #routine#',
+  'introduction': ["#greeting.capitalize#, I am #name#, a #year# #major#. I live in #dorm#.", "#greeting.capitalize#, I am #name#, a #year# #major# and #minor#. I live in #dorm#."],
+  'greeting': ["Hi there", "Hello", "Hi"],
+  'name':  ["Nicole", "Maanya", "Yemi", "Sue"],
+  'year': ["junior", "senior"],
+  'major': ["CS major", "Linguistics major",],
+  'minor': ["Digital Arts and Humanities minor", "Chinese minor"],
+  'dorm': ["Cassat", "Nourse", "Burton", "James", "Myers", "Watson", "Goodhue"],
+  'meal': ["cereal", "sandwich", "salad", "pizza", "ramen", "curry"],
+  'drinks': ["americano", "cappuccino", "latte", "milk", "coke", "tea"],
+  'afternoon': ["take a nap", "work in the #location#", "work in #coffee#"],
+  'affair': ["work", "class", "office hour"],
+  'activity': ["meet my friends in #location#", "meet with my friends in #coffee#", "grab a coffee in #coffee#"],
+  'location':["library", "Weitz"],
+  'coffee': ["Blue Monday", "Little Joy", "Hideaways"],
+  'cafeteria': ["Burton", "LDC", "Sayles"],
+  'reasonForCafeteria': ["it is closer to my dorm", "it has better food", "it has more choices", "most of my friends eat there"],
+  'clubEvent': ["dance with WHOA", "practice with the choir", "play badminton with other club members"],
+  'people': ["floormates", "friends", "roomate"],
+  'nightEvent': ["chatting", "playing cards", "watching some Youtube videos"],
+  'bedTime': ["10", "11", "midnight"],
+  'routine': "A usual#day# looks like this for me: I wake up at#awakeTime# and#afterAwake#. After that,#lunch#. As for dinner, I ususally go to #cafeteria#, since #reasonForCafeteria#. After dinner, I #clubEvent#. I like #nightEvent# with my #people# before bed. And I usually go to sleep at #bedTime#."
+}

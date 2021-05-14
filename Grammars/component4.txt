@@ -1,0 +1,27 @@
+origin-><content>
+content-><introduction><routine><ending>
+introduction-><greeting>, I am<#name>, a<#year><#major> major. I live in<#dorm>.|<greeting>, I am<#name>, a<#year><#major> major and<minor> minor. I live in<#dorm>.
+routine->A usual day looks like this for me: I wake up at<awakeTime> and<afterAwake>. After that, I drop my stuff in<#dorm>,<lunch>. As for dinner, I usually go to<#cafeteria>, since<reasonForCafeteria>. After dinner, I<clubEvent>. I like<#nightEvent> with my<people> before bed, which is around<bedTime>.
+ending->As a<#year>, I really enjoy my life in Carleton.<#major> classes are fun! You should try at least one of them when you have time. I look forward to having dinner with you in<#cafeteria> and<#nightEvent> together.
+awakeTime->8|9|10|11
+afterAwake->go to<affair> after having<meal> for breakfast|go to<affair> and have some<drinks>
+lunch->have lunch in<cafeteria>, and then<afternoon>|have<meal> for brunch, and then go to<activity>
+greeting->Hi there|Hello|Hi
+name->Nicole|Maanya|Yemi|Sue
+year->junior|senior|sophomore|freshman
+major->CS|Linguistics
+minor->Digital Arts and Humanities|Chinese
+dorm->Cassat|Nourse|Burton|James|Myers|Watson|Goodhue
+meal->cereal|sandwich|salad|pizza|ramen|curry
+drinks->americano|cappuccino|latte|milk|coke|tea
+afternoon->take a nap|work in the<location>|work in<coffee>
+affair->work|class|office hours
+activity->meet my friends in<location>|meet with my friends in<coffee>| grab a coffee in<coffee>
+location->library|Weitz
+coffee->Blue Monday|Little Joy|Hideaways
+cafeteria->Burton|LDC|Sayles
+reasonForCafeteria->it has better food|it has more choices|most of my friends eat there
+clubEvent->dance with WHOA|practice with the choir|play badminton with other club members
+people->floormates|friends|roomate
+nightEvent->chatting|playing cards|watching some Youtube videos
+bedTime->10|11|midnight

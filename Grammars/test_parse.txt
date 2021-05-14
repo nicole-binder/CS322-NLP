@@ -1,0 +1,6 @@
+greeting -> <greeting word>, <#name><punct> blah<name>.
+greeting word -> Hello|Hey|Hi|Yo
+name -> <first name> <last name>|<first name>
+first name -> Abdul|Betty|Caesar|Maanya
+last name -> Xavier|Yi|Zimmer
+punct -> .|! 

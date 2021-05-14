@@ -1,0 +1,68 @@
+# Erikson's 8 Stages of Psychosocial Development
+# Yemi
+{
+  "female_name": ["Laine", "Yevette", "Joi", "Ginny", "Mable", "Britney", "Lelia", "Beulah", "Karla", "Analisa", "Eugenie"],
+  "male_name": ["Elbert", "Omar", "Johnny", "Jere", "Rudy", "Bill", "Rubin", "Miquel", "Joel", "Jerome", "Jack", "Brody"],
+  "setCharacter": ["[#setIdentity#][#setStages#]"],
+  "setIdentity": [
+    "[character: #female_name#][they: she][them: her][their: her][themselves: herself]", 
+    "[character: #male_name#][they: he][them: him][their: his][themselves: himself]"
+    ],
+  "setStages": [
+    "[stage: #trust_vs_mistrust#][age: #age_for_1#][event: #feeding#][resolution: #hope#]", 
+    "[stage: #autonomy_vs_doubt#][age: #age_for_2#][event: #toilet_training#][resolution: #will#]", 
+    "[stage: #initiative_vs_guilt#][age: #age_for_3#][event: #independence#][resolution: #purpose#]", 
+    "[stage: #industry_vs_inferiority#][age: #age_for_4#][event: #school#][resolution: #competence#]", 
+    "[stage: #identity_vs_role_confusion#][age: #age_for_5#][event: #peer_relationships#][resolution: #fidelity#]", 
+    "[stage: #intimacy_vs_isolation#][age: #age_for_6#][event: #love_relationships#][resolution: #intimacy#]", 
+    "[stage: #generativity_vs_stagnation#][age: #age_for_7#][event: #parenting_mentoring#][resolution: #generativity#]",
+    "[stage: #ego_integrity_vs_despair#][age: #age_for_8#][event: #reflection_and_acceptance_of_life#][resolution: #wisdom#]"
+    ],
+  "trust_vs_mistrust": ["#trust#", "#mistrust#"],
+  "autonomy_vs_doubt": ["#autonomy#", "#doubt#"],
+  "initiative_vs_guilt": ["#initiative#", "#guilt#"],
+  "industry_vs_inferiority": ["#industry#", "#inferiority#"],
+  "identity_vs_role_confusion": ["#identity#", "#role_confusion#"],
+  "intimacy_vs_isolation": ["#intimacy#", "#isolation#"],
+  "generativity_vs_stagnation": ["#generativity#", "#stagnation#"],
+  "ego_integrity_vs_despair": ["#ego_integrity#", "#despair#"],
+
+  "age_for_1": ["12 month", "13 months", "14 months", "15 months", "16 months", "17 months", "18 months"],
+  "age_for_2": ["18 months", "1", "2", "3"],
+  "age_for_3": ["3", "4", "5", "6"],
+  "age_for_4": ["6", "7", "8", "9", "10", "11", "12"],
+  "age_for_5": ["13", "14", "15", "16", "17", "18", "19", "20", "21"],
+  "age_for_6": ["21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39"],
+  "age_for_7": ["40", "41", "42", "43", "44", "45", "50", "51", "52", "53", "54", "55", "60", "61", "62", "63", "64", "65"],
+  "age_for_8": ["65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80"],
+
+  "trust": ["#character#'s mother left #them# with the father for five minutes to do laundry, and #they# were calm throughout the absence.", "With the help of #their# father, #character# successfully played a block game.", "Even when #character# was hungry, #they# did not cry or express anger; instead #they# were able to wait for #their# mother to feed #them#."],
+  "mistrust": ["#character#'s mother left #them# with the father for five minutes to do laundry, and #they# showed anxiety and frustration throughout the absence.", "Ignored by #their# mother, #character# could not focus on playing blocks, constantly diverting #their# attention to around #them#.", "When #character# was hungry, #they# expressed distress by repeatedly crying or yelling.", "#character# started crying if not held by #their# mother."],
+  "feeding": ["#character#'s mother fed #them# #food# for the first time","#character# was given #food# for the first time.", "It was the first time #character# held a spoon"],
+  "hope": ["#character# learned to trust #their# parents.", "#character# became a more hopeful, calm child as the parents were educated on how to raise #them#.", "#character# no longer showed frustration or distress even in the absence of #their# parent."],
+
+  "autonomy": ["At meal time, #character# independently used the spoon without #their# parent's help.", "#character# started walking without #their# parent's help.", "#character# started climbing everywhere, exploring the house."],
+  "doubt": ["After being scolded for opening the knife drawer by accident, #character# started crying uncontrollably.", "While trying to walk, #character# fell on #their# bottom, and #character# started crying."],
+
+  "initiative": ["#character# and #their# mother were baking together, and #character# decided to make #their# own version of a cookie.", "#character# learned to bike for the first time with the help of #their# father."],
+  "guilt": ["#character# and #their# mother were baking together, and #character# decided to make #their# own version of a cookie, but accidently burnt the cookie, which led #character# to feel sad.", "#character# learned to bike for the first time with the help of #their# father, and fell multiple times, which made #character# more timid."],
+
+  "industry": ["#character# practiced spelling with #their# parents at home, and aced the spelling bee at school, leading #them# to feel proud about themselves.", "#character# got a compliment from a teacher at school.", "#character#'s friends asked #them# for help on a math puzzle, and #they# were able to help the friend."],
+  "inferiority": ["#character# practiced spelling with #their# parents at home, but got a low score on a spelling quiz for a class, which upset the parents.", "#character# was scolded by a teacher at school in front of the whole class.", "#character#'s friends asked #them# for help on a math puzzle, but #they# were not able to help the friend."],
+
+  "identity": ["#character# found what #they# wants to study in college.", "#character# has a sense of who #they# want to become, and have stable family to support that goal."],
+  "role_confusion": ["#character# does not have a clue of what #they# want to become in the future.", "#character# is coping with #their# romantic relationship and school work, as well as conflict at home."],
+
+  "intimacy": ["#character# is secure in #their# relationship with a romantic partner.", "#character# knows that #they# are loved for who #they# are/is, and is not afraid to express #themselves#."],
+  "isolation": ["#character# is insecure in #their# relationship with a romantic partner, and is constantly under the fear that #their# partner will abandon them.", "#character# feels like #they# need to conceal their true feelings in order to be loved or appreciated."],
+
+  "generativity": ["#character# feels fulfillment in #character#'s contribution to #their# children's lives.", "#character# feels like #they# are/is a competent at #their# work field."],
+  "stagnation": ["#character# has doubts about #their# contribution to their work field.", "#character# feels like a bad parent."],
+
+  "ego_integrity": ["#character# feels good about the choices #they# made in #their# life."],
+  "despair": ["#character# feels like #their# life was a waste."],
+
+  "story": ["#character# is #age#. #stage#. #grow_up#"],
+  "grow_up": ["[#setStages#] #character# is now #age. #stage#", ""]
+  "origin": ["#[#setCharacter#]story#"]
+}

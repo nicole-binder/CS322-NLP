@@ -1,0 +1,11 @@
+S -> <NP> <VP>
+NP -> <Det> <Nom> | <PropN>
+Nom -> <Adj> <Nom> | <N>
+VP -> <V> <NP> | <V> <S> | <V> <NP> <PP>
+PP -> <P> <NP>
+PropN -> Buster | Schiller | Joe
+Det -> the | a | every
+N -> bear | squirrel | tree | fish | log
+Adj -> angry | frightened | little | tall
+V -> chased | saw | dodged | loved | ghosted | said
+P -> under | over | near
